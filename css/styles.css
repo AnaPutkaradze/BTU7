@@ -1,6 +1,40 @@
+header {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	background-color: white;
+}
+
 .container {
 	width: 1190px;
 	margin: 0 auto;
+}
+
+.header {
+	display: flex;   
+}
+.logo {
+    margin-top: 64px;
+	margin-left: 132px;
+    margin-right: 200px;
+	height: 43px;
+
+}
+.navigation {
+	display: flex;
+    justify-content: space-around;
+	margin-top: 80px;
+	font-family: 'Lato', sans-serif;
+    color: #3D37F1;
+	font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+
+}
+.nav {
+	margin-left: 50px;
+    opacity: 1;
+    font-weight: 800;
 }
 
 .block {
