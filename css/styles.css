@@ -37,6 +37,52 @@ header {
     font-weight: 800;
 }
 
+.section-one {
+	display: flex;
+	justify-content: center;
+	margin-left: 120px;
+	margin-top: 285px;
+	margin-bottom: 250px;
+}
+
+.heading {
+	width: 530px;
+	margin-right: 160px;
+}
+
+h1 {
+	font-size: 60px;
+	font-family: 'Lato';
+}
+.headingfirst {
+	margin-top: 42px;
+}
+h5 {
+	font-size: 22px;
+	font-family: 'Roboto';
+}
+.button {
+	display: flex;
+	align-items: center;
+	margin-top: 83px;
+	width: 260px;
+	height: 80px;
+	border-radius: 38px;
+	background-color: #3D37F1;
+}
+.hand-up {
+	width: 30px;
+	height: 30px;
+	margin-left: 22px;
+	margin-right: 24px;
+}
+.button-text {
+	font-family: 'Roboto';
+	font-size: 23px;
+	color: white;
+}
+
+
 .block {
 	width: 370px;
 	height: 451px;
